@@ -1,0 +1,28 @@
+{
+    "name": "projekt",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-planetx-gesturesensor-paj7620": "github:TomasKazda/pxt-PlanetX-gesturesensor-PAJ7620#11ed09e1f2290f9606d14491464e05541c9f95ec",
+        "pxt-servo-pwm": "github:TomasKazda/pxt-servo-pwm#432fced65423b6f3880e374b6a1a54aabd539b07"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
